@@ -12,6 +12,6 @@ def solution(data, ext, val_ext, sort_by):
         if row[index_dict[ext]] < val_ext:
             answer.append(row)
     
-    answer.sort(key = lambda x : x[index_dict[sort_by]])
+    answer.sort(key = lambda x : x[index_dict[sort_by]]) 
     
     return answer 
